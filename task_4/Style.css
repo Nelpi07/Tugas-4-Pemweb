@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #E6E6FA; /* Lilac background */
+    color: #4B0082; /* Indigo text to complement lilac */
+}
+
+h1 {
+    color: #9370DB; /* Medium Purple for headers */
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #D8BFD8; /* Thistle for form background */
+    border: 1px solid #BA55D3; /* Orchid for border */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #4B0082; /* Indigo for label text */
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #9370DB; /* Medium Purple for inputs */
+    border-radius: 4px;
+    background-color: #F8F8FF; /* Ghost White for input backgrounds */
+}
+
+form button {
+    background-color: #9370DB; /* Medium Purple for buttons */
+    color: #FFF; /* White text */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #BA55D3; /* Orchid on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #F8F8FF; /* Ghost White for table background */
+    color: #4B0082; /* Indigo text */
+}
+
+table, th, td {
+    border: 1px solid #9370DB; /* Medium Purple for table borders */
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #BA55D3; /* Orchid for header cells */
+    color: #FFF; /* White text */
+}
